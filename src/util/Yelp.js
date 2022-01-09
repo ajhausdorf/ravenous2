@@ -23,7 +23,8 @@ export const Yelp = async (term, location, sortBy) => {
                         zipCode: business.zipCode,
                         category: business.category,
                         rating: business.rating,
-                        reviewCount: business.reviewCount
+                        reviewCount: business.reviewCount,
+                        url: business.url
                     }
                 })
                 return businesses;
